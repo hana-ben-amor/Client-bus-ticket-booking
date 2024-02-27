@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color:white;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.HelloController">
+   <children>
+      <Label layoutX="481.0" layoutY="147.0" text="We're">
+         <font>
+            <Font name="Lucida Sans Demibold Roman" size="66.0" />
+         </font>
+      </Label>
+      <Label layoutX="459.0" layoutY="227.0" prefHeight="80.0" prefWidth="273.0" text=" going">
+         <font>
+            <Font name="Lucida Sans Demibold Roman" size="66.0" />
+         </font>
+      </Label>
+      <Label layoutX="459.0" layoutY="310.0" text=" on a trip.">
+         <font>
+            <Font name="Lucida Sans Demibold Roman" size="66.0" />
+         </font>
+      </Label>
+      <Label layoutX="481.0" layoutY="390.0" prefHeight="21.0" prefWidth="132.0" text="Are you in?">
+         <font>
+            <Font name="Lucida Sans Regular" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="showSearchView" layoutX="481.0" layoutY="442.0" mnemonicParsing="false" onAction="#loadSearchView" prefHeight="48.0" prefWidth="184.0" text="Get Started" textFill="#5286f8">
+         <font>
+            <Font name="Lucida Sans Demibold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="732.0" fitWidth="440.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/traveller.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

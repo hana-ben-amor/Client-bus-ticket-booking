@@ -1,0 +1,165 @@
+
+.button {
+    -fx-background-color: #5286F8;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-transition: background-color 0.3s, text-fill 0.3s;
+}
+
+.button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #5286F8;
+}
+/* Default text field style */
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: lightgray;
+    -fx-border-width: 0 0 1 0; /* bottom border only */
+}
+
+/* Change border color when focused */
+.text-field:focused {
+    -fx-border-color: #5285F7;
+}
+
+/* Default label style */
+.labelForm{
+    -fx-text-fill: gray;
+}
+
+/* Change label color and border color when text field is focused */
+.text-field:focused {
+    -fx-text-fill: #5285F7;
+    -fx-border-color: #5285F7;
+}
+
+ .labelForm:focused{
+  -fx-text-fill: #5285F7;
+     -fx-border-color: #5285F7;
+ }
+
+.swapBtn{
+    -fx-background-image: url("images/swap.png");
+    -fx-background-color:transparent;
+ }
+
+ /* Default combo box style */
+ .combo-box {
+     -fx-background-color: transparent;
+     -fx-border-color: lightgray;
+     -fx-border-width: 0 0 1 0; /* bottom border only */
+ }
+
+ /* Change border color when focused */
+ .combo-box:focused {
+     -fx-border-color: #5285F7;
+ }
+
+ /* Change arrow color */
+ .combo-box .arrow {
+     -fx-background-color: #5286F8;
+ }
+
+ /* Change arrow hover color */
+ .combo-box .arrow:hover {
+     -fx-background-color: white;
+     -fx-text-fill: #5286F8;
+ }
+
+ .alert {
+     -fx-background-color: #FFFFFF; /* set the background color */
+     -fx-border-color: #5083F2; /* set the border color */
+     -fx-border-radius:5px; /* set the border radius */
+ }
+ .alert .header-panel {
+     -fx-background-color: #5083F2; /* set the header background color */
+     -fx-background-insets: 0; /* remove the header background insets */
+     -fx-text-fill: white; /* set the header text color */
+ }
+ .alert .content {
+     -fx-padding: 20px; /* set the padding */
+     -fx-font-size: 14px; /* set the font size */
+ }
+
+
+
+ .date-picker {
+ -fx-background-color: transparent;
+ -fx-border-color: lightgray;
+ -fx-border-width: 0 0 1 0;
+ }
+
+ /* Change border color when focused */
+ .date-picker:focused {
+ -fx-border-color: #5285F7;
+ }
+
+ /* Change arrow color */
+ .date-picker .arrow-button {
+ -fx-background-color: #5286F8;
+ }
+
+ /* Change arrow hover color */
+ .date-picker .arrow-button:hover {
+ -fx-background-color: white;
+ -fx-text-fill: #5286F8;
+ }
+
+ /* Change text color when focused */
+ .date-picker:focused .text-field {
+ -fx-text-fill: #5285F7;
+ }
+
+ /* Change prompt text color */
+ .date-picker .text-field .prompt-text {
+ -fx-text-fill: gray;
+ }
+
+ /* Change selected date color */
+ .date-picker .day-cell:filled:selected {
+ -fx-background-color: #5286F8;
+ -fx-text-fill: white;
+ }
+
+ /* Change today's date color */
+ .date-picker .day-cell:today {
+ -fx-background-color: #5286F8;
+ -fx-text-fill: white;
+ }
+
+ /* Change hover color */
+ .date-picker .day-cell:hover {
+ -fx-background-color: #5286F8;
+ -fx-text-fill: white;
+ }
+
+ /* Change disabled color */
+ .date-picker .day-cell:disabled {
+ -fx-background-color: transparent;
+ -fx-text-fill: lightgray;
+ }
+
+ /* Change weekend color */
+ .date-picker .week-number-cell, .date-picker .week-number-cell:disabled {
+ -fx-background-color: transparent;
+ -fx-text-fill: gray;
+ }
+
+ /* Change header color */
+ .date-picker .month-year-pane {
+ -fx-background-color: #5286F8;
+ -fx-text-fill: white;
+ }
+
+ /* Change arrow color in header */
+ .date-picker .arrow-button:up {
+ -fx-background-color: #5286F8;
+ }
+
+ /* Change arrow hover color in header */
+ .date-picker .arrow-button:up:hover {
+ -fx-background-color: white;
+ -fx-text-fill: #5286F8;
+ }
